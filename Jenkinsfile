@@ -21,7 +21,7 @@ pipeline {
             
             // Jenkins Stage to Build the Docker Image
             steps{
-                sh 'docker image build -t nishant88/knx-predict-price:$BUILD_NUMBER'
+                sh 'docker image build -t nishant88/knx-predict-price:$BUILD_NUMBER .'
             }
 
         }
