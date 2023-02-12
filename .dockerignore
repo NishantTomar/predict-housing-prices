@@ -1,3 +1,5 @@
 Jenkinsfile
 README.md
 .git
+output_out.txt/
+Makefile
